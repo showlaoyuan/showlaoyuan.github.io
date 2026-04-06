@@ -5,5 +5,5 @@ I am a Computer Engineering and Chinese-Korean Translation student at Korea Univ
 - 🔭 **Current Project**: Financial NLP Capstone project utilizing Large Language Models.
 - 👨‍💻 **Role**: Lead for **Prompt Engineering**, specializing in processing and analyzing specialized financial datasets such as FIQA and FPB.
 - 🎓 **Academic Goal**: Pursuing a Master's degree in AI Convergence to further explore the potential of NLP.
-- 💬 **Languages**: Chinese (Native), Korean (TOPIK Level 5), English.
-- 📫 **Contact**: [Your Email Here]
+- 💬 **Languages**: Chinese (Native), Korean (TOPIK Level 5).
+- 📫 **Contact**: [yuanguangyuan521@gmail.com]
