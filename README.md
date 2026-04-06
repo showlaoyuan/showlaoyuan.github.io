@@ -1,4 +1,4 @@
-# Hi, I'm Wang Kuang Wan 👋
+# Hi, I'm 원광원 (YUAN GUANGYUAN)👋
 
 I am a Computer Engineering and Chinese-Korean Translation student at Korea University of Foreign Studies. I am passionate about the intersection of Artificial Intelligence and Linguistics, with a focus on how LLMs can bridge language barriers.
 
