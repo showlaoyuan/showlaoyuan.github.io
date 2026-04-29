@@ -3,153 +3,237 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>YUAN GUANGYUAN | Portfolio</title>
+  <meta name="description" content="Portfolio of YUAN GUANGYUAN, a Computer Engineering and Chinese-Korean Translation student interested in AI, bilingual learning tools, financial NLP, and practical project-based learning." />
+
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
       background: #f7f8fb;
-      color: #222;
-      line-height: 1.6;
+      color: #1f2937;
+      line-height: 1.7;
     }
 
     header {
-      padding: 80px 20px;
+      padding: 90px 24px;
       text-align: center;
       background: linear-gradient(135deg, #eef2ff, #fdf2f8);
     }
 
     header h1 {
-      font-size: 42px;
-      margin-bottom: 10px;
+      font-size: 44px;
+      margin: 0 0 12px;
+      color: #111827;
     }
 
     header p {
-      font-size: 18px;
-      max-width: 760px;
+      max-width: 820px;
       margin: 0 auto;
-      color: #555;
+      font-size: 18px;
+      color: #4b5563;
+    }
+
+    nav {
+      background: white;
+      border-bottom: 1px solid #e5e7eb;
+      text-align: center;
+      padding: 14px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      margin: 0 14px;
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 600;
     }
 
     section {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
+      max-width: 980px;
+      margin: 48px auto;
+      padding: 0 24px;
     }
 
     h2 {
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 8px;
+      font-size: 30px;
+      color: #111827;
       margin-bottom: 20px;
+      border-bottom: 1px solid #d1d5db;
+      padding-bottom: 10px;
     }
 
     .card {
       background: white;
-      border-radius: 16px;
-      padding: 24px;
-      margin-bottom: 20px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+      border: 1px solid #e5e7eb;
+      border-radius: 18px;
+      padding: 28px;
+      margin-bottom: 22px;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.05);
     }
 
-    .skills span {
+    .card h3 {
+      margin-top: 0;
+      font-size: 23px;
+      color: #111827;
+    }
+
+    .tags span {
       display: inline-block;
       background: #eef2ff;
-      padding: 8px 12px;
-      margin: 6px;
+      color: #2563eb;
+      padding: 7px 12px;
+      margin: 5px 5px 5px 0;
       border-radius: 999px;
       font-size: 14px;
+      font-weight: 600;
     }
 
     a {
       color: #2563eb;
-      text-decoration: none;
     }
 
     footer {
       text-align: center;
-      padding: 30px;
-      color: #666;
+      padding: 36px 20px;
+      color: #6b7280;
+      background: white;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    @media (max-width: 640px) {
+      header h1 {
+        font-size: 34px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 6px 8px;
+      }
+
+      .card {
+        padding: 22px;
+      }
     }
   </style>
 </head>
+
 <body>
 
   <header>
     <h1>Hi, I'm 원광원 (YUAN GUANGYUAN)</h1>
     <p>
       Computer Engineering and Chinese-Korean Translation student at Korea University of Foreign Studies.
-      Interested in AI, NLP, LLMs, bilingual learning tools, and financial text analysis.
+      I am interested in Artificial Intelligence, bilingual learning tools, financial NLP, and practical
+      project-based learning.
     </p>
   </header>
 
-  <section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#goal">Goal</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
     <h2>About Me</h2>
     <div class="card">
       <p>
-        I am passionate about how Artificial Intelligence and language technologies can help people overcome
-        communication barriers in real learning environments. My current work focuses on bilingual learning tools,
-        financial NLP, and LLM-based applications.
+        I am interested in how AI and language technologies can support real learning situations,
+        especially for students who study in multilingual environments.
+      </p>
+      <p>
+        With a background in both Computer Engineering and Chinese-Korean Translation, I am currently
+        building project experience through web page editing, GitHub Pages deployment, financial NLP
+        data processing, and AI-assisted development practice.
       </p>
     </div>
   </section>
 
-  <section>
-    <h2>Skills</h2>
-    <div class="card skills">
-      <span>Python</span>
-      <span>JavaScript</span>
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>NLP</span>
-      <span>LLMs</span>
-      <span>Prompt Engineering</span>
-      <span>FinBERT</span>
-      <span>GitHub Pages</span>
-      <span>SEO / GEO Optimization</span>
+  <section id="experience">
+    <h2>Project Experience</h2>
+    <div class="card tags">
+      <span>Python project practice</span>
+      <span>Basic HTML / CSS editing</span>
+      <span>GitHub README writing</span>
+      <span>GitHub Pages deployment</span>
+      <span>Financial NLP dataset processing</span>
+      <span>FPB / FiQA / FinQA</span>
+      <span>Basic FinBERT experiment practice</span>
+      <span>Hansorri website improvement</span>
+      <span>SEO / GEO optimization practice</span>
+      <span>AI-assisted coding workflow</span>
     </div>
   </section>
 
-  <section>
+  <section id="projects">
     <h2>Projects</h2>
 
     <div class="card">
       <h3>Hansorri — AI Bilingual Learning Assistant</h3>
+      <div class="tags">
+        <span>AI learning support</span>
+        <span>Chinese-Korean learning</span>
+        <span>Website improvement</span>
+        <span>SEO / GEO practice</span>
+      </div>
       <p>
-        Hansorri is an AI-powered bilingual learning assistant designed to support Chinese-Korean learners.
-        The project focuses on real-time translation support, classroom summaries, bilingual records,
-        keyword extraction, and a smoother learning experience.
+        Hansorri is an AI-powered bilingual learning assistant designed to support Chinese-Korean
+        learners in classroom learning. The project focuses on real-time translation support,
+        classroom summaries, bilingual records, and keyword extraction.
       </p>
       <p>
-        My work included website UI optimization, homepage content refinement, SEO/GEO optimization,
-        and project deployment preparation.
+        I participated in improving the Hansorri website, including homepage text refinement,
+        basic UI adjustment, SEO/GEO-related optimization, and deployment preparation with the
+        help of AI coding tools.
       </p>
     </div>
 
     <div class="card">
       <h3>Financial NLP Capstone Project</h3>
+      <div class="tags">
+        <span>Financial NLP</span>
+        <span>Dataset processing</span>
+        <span>Sentiment analysis practice</span>
+        <span>FinBERT practice</span>
+      </div>
       <p>
-        A financial text analysis capstone project using datasets such as FPB, FiQA, and FinQA.
-        The project includes dataset preprocessing, unified data construction, sentiment analysis,
-        and FinBERT-based modeling.
+        This is my current graduation capstone project related to financial text analysis and
+        Large Language Models. The project uses financial NLP datasets such as FPB, FiQA,
+        and FinQA.
+      </p>
+      <p>
+        My work mainly focuses on dataset organization, unified data formatting, basic sentiment
+        analysis experiments, FinBERT-related training/evaluation practice, and project documentation.
       </p>
     </div>
   </section>
 
-  <section>
+  <section id="goal">
     <h2>Academic Goal</h2>
     <div class="card">
       <p>
-        I plan to continue studying Artificial Intelligence and Natural Language Processing,
-        especially in areas related to LLMs, multilingual learning, and financial NLP.
+        I plan to continue improving my practical skills in Artificial Intelligence and Natural Language
+        Processing, especially in multilingual learning support tools and financial NLP applications.
       </p>
     </div>
   </section>
 
-  <section>
+  <section id="contact">
     <h2>Contact</h2>
     <div class="card">
       <p>Email: <a href="mailto:yuanguangyuan521@gmail.com">yuanguangyuan521@gmail.com</a></p>
       <p>GitHub: <a href="https://github.com/showlaoyuan">github.com/showlaoyuan</a></p>
+      <p>Portfolio Website: <a href="https://showlaoyuan.github.io/">showlaoyuan.github.io</a></p>
     </div>
   </section>
 
