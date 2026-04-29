@@ -1,9 +1,37 @@
-# Hi, I'm 원광원 (YUAN GUANGYUAN)👋
+# YUAN GUANGYUAN | GitHub Pages Portfolio
 
-I am a Computer Engineering and Chinese-Korean Translation student at Korea University of Foreign Studies. I am passionate about the intersection of Artificial Intelligence and Linguistics, with a focus on how LLMs can bridge language barriers.
+This repository is used for my GitHub Pages portfolio website.
 
-- 🔭 **Current Project**: Financial NLP Capstone project utilizing Large Language Models.
-- 👨‍💻 **Role**: Lead for **Prompt Engineering**, specializing in processing and analyzing specialized financial datasets such as FIQA and FPB.
-- 🎓 **Academic Goal**: Pursuing a Master's degree in AI Convergence to further explore the potential of NLP.
-- 💬 **Languages**: Chinese (Native), Korean (TOPIK Level 5).
-- 📫 **Contact**: [yuanguangyuan521@gmail.com]
+Website link: [https://showlaoyuan.github.io/](https://showlaoyuan.github.io/)
+
+## About This Website
+
+This is a simple personal portfolio page created for organizing my project experience, academic interests, and contact information.
+
+The website includes:
+
+- A short personal introduction
+- Project experience
+- Financial NLP capstone project
+- Hansorri Korean classroom learning assistant prototype
+- Contact information
+
+## Main Projects
+
+### Financial NLP Capstone Project
+
+A graduation capstone project related to financial text analysis and Large Language Models.
+
+My current work mainly focuses on dataset organization, unified data formatting, basic sentiment analysis experiments, FinBERT-related training/evaluation practice, and project documentation.
+
+### Hansorri — Korean Classroom Learning Assistant Prototype
+
+Hansorri is a team project that I am working on with a friend.
+
+It is a Korean classroom learning assistant prototype designed to help learners better understand class content, review key information, and organize learning records.
+
+The project has not been officially launched yet. My current work mainly focuses on improving the project website draft, refining homepage content, making basic UI adjustments, and practicing SEO/GEO-related optimization with the help of AI coding tools.
+
+## Notes
+
+This website is built with HTML and CSS and deployed through GitHub Pages.
